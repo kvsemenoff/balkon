@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,mBAAoB,CACnB,KAAK,CAAE,OAAO,CACd,WAAW,CAAE,sBAAsB,CACnC,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,IAAI",
+"sources": ["style-dg.scss"],
+"names": [],
+"file": "style-dg.css"
+}

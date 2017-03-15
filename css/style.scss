@@ -12,7 +12,7 @@ input[type="text"] {
 	background: #f5f5f5;
 	border-radius: 20px;
 	color: #828282;
-	font-family: "PFDinDisplayPro-Regular";
+	font-family: "pfdindisplaypro-reg";
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 22px;
@@ -23,28 +23,28 @@ input[type="text"] {
 	max-width: 268px;
 	&::-webkit-input-placeholder {
 		color: #828282;
-		font-family: "PFDinDisplayPro-Regular";
+		font-family: "pfdindisplaypro-reg";
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 22px;
 	}
 	&::-moz-placeholder {
 		color: #828282;
-		font-family: "PFDinDisplayPro-Regular";
+		font-family: "pfdindisplaypro-reg";
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 22px;
 	}
 	&:-moz-placeholder {
 		color: #828282;
-		font-family: "PFDinDisplayPro-Regular";
+		font-family: "pfdindisplaypro-reg";
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 22px;
 	}
 	&:-ms-input-placeholder {
 		color: #828282;
-		font-family: "PFDinDisplayPro-Regular";
+		font-family: "pfdindisplaypro-reg";
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 22px;
@@ -52,7 +52,7 @@ input[type="text"] {
 }
 .button1 {
 	border-radius: 30px;
-	font-family: "PFDinDisplayPro-Medium";
+	font-family: "pfdindisplaypro-med";
 	font-size: 19px;
 	font-weight: 500;
 	line-height: 20px;
@@ -60,6 +60,8 @@ input[type="text"] {
 }
 .button-orange {
 	color: #fff;
+	border: 0;
+	outline: 0;
 	padding: 15px 20px 15px 25px;
 	background-image: linear-gradient(to top, #fd670c 0%, #feb52b 100%);
 	box-shadow: 1.5px 2.6px 3px rgba(0, 0, 0, 0.2);
@@ -86,7 +88,7 @@ input[type="text"] {
 }
 h1 {
 	color: #fff;
-	font-family: "PFDinDisplayPro-Bold";
+	font-family: "pfdindisplaypro-bold";
 	text-transform: uppercase;
 	font-size: 35px;
 	font-weight: 700;
@@ -94,7 +96,7 @@ h1 {
 	text-align: center;
 }
 h2 {
-	font-family: "PFDinDisplayPro-Bold";
+	font-family: "pfdindisplaypro-bold";
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 30px;
@@ -137,12 +139,12 @@ h2 {
 @media only screen and (min-width : 1248px) {
 }
 
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "style5.css";
-@import "style6.css";
-@import "style7.css";
-@import "style8.css";
-@import "style9.css";
-@import "style10.css";
+@import "style-db.css";
+@import "style-dc.css";
+@import "style-dd.css";
+@import "style-de.css";
+@import "style-df.css";
+@import "style-dg.css";
+@import "style-dh.css";
+@import "style-di.css";
+@import "style-dj.css";
