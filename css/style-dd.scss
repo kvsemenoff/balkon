@@ -94,20 +94,28 @@
 /* Шапка основное
 ==============================*/
 .dd-header-main{
-	padding-top: 45px;
+	padding-top: 30px;
 	padding-bottom: 36px;
 	background:url(../img/smallbg.jpg) no-repeat top center;
 	height: 431px;
+	position: relative;
+}
+.dd-str{
+	position: absolute;
+	left:25%;
+	transform-translate:(-50);
+	bottom:-25px;
 }
 .dd-box-main_h{
-	max-width: 520px;
+	max-width: 530px;
 	span{
 		color:#fff;
 		font-family: "pfdindisplaypro-reg";
 		display: inline-block;
 	}
 	span:nth-child(1){
-		font-size: 45px;
+		// font-size: 45px;
+		font-size: 20px;
 		font-weight: 700;
 		text-transform: uppercase;
 	}
@@ -124,6 +132,46 @@
 	}
 	.sp-4_h{
 		color:#FFBA26;
+		font-size: 25px;
+		margin-top: 4px;
+		letter-spacing: 1px;
+		span{
+			color:#FFBA26;
+		}
+	}
+	.button_head{
+		text-align: center;
+		display: inline-block;
+		// width: 305px;
+		width: 260px;
+		height: 49px;
+		background-image: linear-gradient(to top, #fd670c 0%, #feb52b 100%);
+		box-shadow: 1.5px 2.6px 3px rgba(0, 0, 0, 0.2);
+		border-radius: 25px;
+		font-size: 17px;
+		// font-size: 19px;
+		font-weight: 500;
+		line-height: 47px;
+		font-family: "pfdindisplaypro-reg";
+		text-transform: uppercase;
+		color:#fff;
+		letter-spacing: -1px;
+		margin-top: 24px;
+	}
+	p{
+		color:#fff;
+		font-family: "pfdindisplaypro-reg";
+		font-size: 16px;
+		font-weight: 300;
+		// padding-top: 22px;
+		padding-top: 10px;
+		b{
+			font-weight: 700;
+		}
+		i{
+			font-size: 20px;
+			font-weight: 700;
+		}
 	}
 }
 
@@ -131,9 +179,31 @@
 }
 
 @media only screen and (min-width : 480px) {
+	.dd-str{
+		left:40%;
+	}
+	.dd-box-main_h{
+		span:nth-child(1){
+			font-size: 45px;
+		}
+		.button_head{			
+			width: 305px;
+			font-size: 19px;
+		}
+		p{
+			padding-top: 22px;
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {
+	.dd-str{
+		left:45%;
+		transform-translate:(-50);
+	}
+	.dd-header-main{
+		background:url(../img/bigbg.jpg) no-repeat top center;
+	}
 }
 
 @media only screen and (min-width : 992px) {

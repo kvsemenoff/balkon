@@ -77,6 +77,9 @@
 				</div>	
 			</div>
 		</div>
+		<div class="dd-str">
+			<img src="img/dd-str.png" alt="">
+		</div>
 	</div>
 </section>
 
