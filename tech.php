@@ -3,13 +3,19 @@
 <br><br>		
 <a href="#" class="button-1">Заказать звонок</a>	
 <br><br>	
-<h1>Пример заголовка</h1>
+<h1 style='background:#000; padding: 20px;'>остекление балкона под ключ</h1>
+<br><br>
+<h2 class="h2-black">какое остекление выбрать</h2>
+<br><br>
+<h2 class="h2-white" style="background: #2973aa; padding: 20px;">какое остекление выбрать</h2>
 <br><br>	
-<form action="#">
-	<input type="text" value="" placeholder="Инпут тайп текст">		
+<form action="#" style="background: #333; padding: 20px;">
+	<input type="text" value="" placeholder="Имя"><br><br>		
+	<input type="text" value="" placeholder="Телефон">		
 	<input type="submit" value="Значение" placeholder="Инпут тайп сабмит">		
 </form>		
-
+<br><br>
+<a href="#" class="button1">Заказать отделку под ключ</a>
 
 <?php require_once('includes/footer.php'); ?>
 
