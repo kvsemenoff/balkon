@@ -7,15 +7,15 @@
 	</div>
 	<div class="row flex-selector">
 		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item1"></a href="#"></div>
-		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item2"></a href="#"></div>
-		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item3"></a href="#"></div>
-		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item4"></a href="#"></div>
+		<div class="rehau col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item2"></a href="#"></div>
+		<div class="kbe col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item3"></a href="#"></div>
+		<div class="knipping col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item4"></a href="#"></div>
 		<div class="col-md-2 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item5"></a href="#"></div>
 		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0">
 			<a href="#" class="quality-item quality-item6"></a href="#">
 		</div>
-		<div class="col-md-2 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item7"></a href="#"></div>
-		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item8"></a href="#"></div>
+		<div class="proplex col-md-2 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item7"></a href="#"></div>
+		<div class="goodwin col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item8"></a href="#"></div>
 	</div>
 	<div class="row">
 		<div class="col-md-12">
