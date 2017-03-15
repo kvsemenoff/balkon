@@ -33,6 +33,7 @@
 }
 .footer-payment {
 	margin-bottom: 25px;
+	margin-top: 30px;
 }
 .footer-social__item {
 	display: inline-block;
@@ -249,6 +250,111 @@
 .select-left {
 	margin-bottom: 100px;
 }
+
+/* Kachestvo */
+.quality {
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+.quality-title {
+	line-height: 35px; 
+}
+.quality-item1 {
+}
+.quality-item1 {
+	height: 82px;
+	background:transparent url('/img/veka.png') 50% 50% no-repeat;
+	&:hover {
+		background:transparent url('/img/veka-hover.png') 50% 50% no-repeat;
+	}
+}
+.quality-item2 {
+	height: 82px;
+	background:transparent url('/img/rehau.png') 50% 50% no-repeat;
+	&:hover {
+		background:transparent url('/img/rehau-hover.png') 50% 50% no-repeat;
+	}
+}
+.quality-item3 {
+	height: 82px;
+	background:transparent url('/img/kbe.png') 50% 50% no-repeat;
+	&:hover {
+		background:transparent url('/img/kbe-hover.png') 50% 50% no-repeat;
+	}
+}
+.quality-item4 {
+	height: 82px;
+	background:transparent url('/img/knipping.png') 50% 50% no-repeat;
+	&:hover {
+		height: 82px;
+		background:transparent url('/img/knipping-hover.png') 50% 50% no-repeat;
+	}
+}
+.quality-item5 {
+	height: 82px;
+	background:transparent url('/img/siegenia.png') 50% 50% no-repeat;
+	&:hover {
+		background:transparent url('/img/siegenia-hover.png') 50% 50% no-repeat;
+	}
+}
+.quality-item6 {
+	height: 82px;
+	background:transparent url('/img/roto.png') 50% 50% no-repeat;
+	&:hover {
+		background:transparent url('/img/roto-hover.png') 50% 50% no-repeat;
+	}
+}
+.quality-item7 {
+	height: 82px;
+	background:transparent url('/img/proplex.png') 50% 50% no-repeat;
+	&:hover {
+		background:transparent url('/img/proplex-hover.png') 50% 50% no-repeat;
+	}
+}
+.quality-item8 {
+	height: 82px;
+	background:transparent url('/img/goodwin.png') 50% 50% no-repeat;
+	&:hover {
+		background:transparent url('/img/goodwin-hover.png') 50% 50% no-repeat;
+	}
+}
+.flex-selector {
+	margin-top: 35px;
+	margin-bottom: 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.quality-paragraph {
+	color: #2f2f2f;
+	font-family: "pfdindisplaypro-reg";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	margin-bottom: 30px;
+}
+.quality-functions {
+	margin-left: 45px;
+	padding-left: 20px;
+}
+.quality-functions__text {
+	color: #717171;
+	font-family: "pfdindisplaypro-reg";
+	font-weight: 400;
+	line-height: 18px;
+	font-size: 16px;
+	&:first-child {
+		margin-bottom: 15px;
+	}
+}
+.quality-span {
+	font-family: "pfdindisplaypro-bold";
+	font-size: 18px;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -267,6 +373,9 @@
 	}
 	.footer-top__blocks {
 		margin-bottom: 0;
+	}
+	.footer-payment {
+		margin-top: 0;
 	}
 	.select-img__promo {
 		left: 80px;
@@ -289,6 +398,10 @@
 		&:first-child {
 			margin-bottom: 0px;
 		}
+	}
+
+	.quality-functions {
+		background:  url('/img/quality-stick.png') left top no-repeat;
 	}
 }
 @media only screen and (min-width : 1248px) {
