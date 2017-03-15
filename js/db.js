@@ -1,14 +1,12 @@
 $(function(){
-
 $('.carousel').carousel({
-carouselWidth:930,
-carouselHeight:330,
-directionNav:true,
-shadow:true,
-buttonNav:'bullets',
-mouse: true,
-autoplay: false
-
-
-});
+    hAlign:'center', 
+    vAlign:'center', 
+    frontWidth: 813,
+    frontHeight: 383,
+    autoplay: false,
+    hMargin:0.4, 
+    directionNav:true, 
+    buttonNav:'bullets'
+}); 
 });//END READY
