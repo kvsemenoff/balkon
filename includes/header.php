@@ -13,6 +13,7 @@
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 
 </head>
 <body>

@@ -1,15 +1,68 @@
-<section class="section section_padding dd-header-top">
+<div class="dd-menu-mobile">
+	<div class="js-but">
+		<img src="img/burg.png" alt="">
+	</div>
+</div>
+<section id="js-menu" class="section section_padding dd-header-top">
 	<div class=" container">
 		<div class="row">
 			<div class="col-md-3">
-
+				<div class="dd-logo_h">
+					<img class="img-responsive" src="img/logo.png" alt="">
+				</div>	
 			</div>
 			<div class="col-md-6">
-
+				<div class="dd-menu-top_h">
+					<ul>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Гарантия</a></li>
+						<li><a href="#">Статьи</a></li>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="col-md-3">
-
+				<div class="dd-phone_h">
+					<span>+7 (351) <span> 555-33-22</span></span><br>
+					<span>Звоните ежедневно с 9:00 до 21:00</span>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+<section id="js-menu" class="section section_padding dd-header-bottom">
+	<div class=" container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="dd-menu-bottom">
+					<ul>
+						<li><a href="#"> Остекленение балконов</a></li>
+						<li><a href="#"> Отделка балконов</a></li>
+						<li><a href="#"> Утепление балконов</a></li>
+						<li><a href="#"> Цены</a></li>
+						<li><a href="#"> Наши работы</a></li>
+						<li><a href="#"> Отзывы</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section section_padding dd-header-main">
+	<div class=" container">
+		<div class="row">
+
+		</div>
+	</div>
+</section>
+
+<script>
+	$('.js-but').click(function(){
+		alert(1);
+		// $('#js-menu').slideToggle(500);
+	});
+</script>

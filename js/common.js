@@ -34,6 +34,6 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
- });
+});
 
 
