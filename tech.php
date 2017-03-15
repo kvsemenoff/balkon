@@ -15,8 +15,13 @@
 	<input type="submit" value="Значение" placeholder="Инпут тайп сабмит">		
 </form>		
 <br><br>
-<a href="#" class="button1">Заказать отделку под ключ</a>
-
+<a href="#" class="button1 button-orange">Заказать отделку под ключ</a>
+<br><br><br><br><br><br>
+<div style="background: #333; padding: 20px;" >
+	<a href="#" class="button1 button-white">подробнее</a>
+</div>
+<br><br><br><br><br><br>
+<a href="#" class="button1 button-black">посмотреть другие работы</a>
 <?php require_once('includes/footer.php'); ?>
 
 	
