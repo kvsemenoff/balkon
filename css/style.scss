@@ -51,16 +51,38 @@ input[type="text"] {
 	}
 }
 .button1 {
-	display: block;
-	background-image: linear-gradient(to top, #fd670c 0%, #feb52b 100%);
-	box-shadow: 1.5px 2.6px 3px rgba(0, 0, 0, 0.2);
-	border-radius: 20px;
-	color: #fff;
+	border-radius: 30px;
 	font-family: "PFDinDisplayPro-Medium";
 	font-size: 19px;
 	font-weight: 500;
 	line-height: 20px;
 	text-transform: uppercase;
+}
+.button-orange {
+	color: #fff;
+	padding: 15px 20px 15px 25px;
+	background-image: linear-gradient(to top, #fd670c 0%, #feb52b 100%);
+	box-shadow: 1.5px 2.6px 3px rgba(0, 0, 0, 0.2);
+	&:hover {
+		background-image: linear-gradient(to top, #ffba26 0%, #ffba26 100%);
+	}
+}
+.button-white {
+	color: #fff;
+	border: 2px solid white;
+	padding: 9px 23px 9px 23px;
+	&:hover {
+		background-color: rgba(201, 187, 166, 0.36);
+	}
+}
+.button-black {
+	color: #010101;
+	border: 2px solid #fd7a14;
+	padding: 13px 22px 13px 22px;
+	&:hover {
+		background-color: #fd7a14;
+		color: #fff;
+	}
 }
 h1 {
 	color: #fff;
