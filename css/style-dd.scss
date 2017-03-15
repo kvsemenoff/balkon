@@ -12,8 +12,6 @@
 }
 .js-but{
 	display: inline-block;
-	border:1px solid red;
-	z-index: 9999;
 }
 .dd-header-top{
 	background:#fff;
@@ -93,6 +91,42 @@
 	}
 }
 
+/* Шапка основное
+==============================*/
+.dd-header-main{
+	padding-top: 45px;
+	padding-bottom: 36px;
+	background:url(../img/smallbg.jpg) no-repeat top center;
+	height: 431px;
+}
+.dd-box-main_h{
+	max-width: 520px;
+	span{
+		color:#fff;
+		font-family: "pfdindisplaypro-reg";
+		display: inline-block;
+	}
+	span:nth-child(1){
+		font-size: 45px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.sp-2_h{
+		margin-top: 5px;
+		font-size: 20px;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	.sp-3_h{
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	.sp-4_h{
+		color:#FFBA26;
+	}
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -103,6 +137,12 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-menu-mobile{
+		display: none;
+	}
+	#js-menu{
+		display: block;
+	}
 	.dd-logo_h{
 		display: block;
 	}
