@@ -7,7 +7,7 @@
 					<div class="item">
 						<img src="img/db-our.jpg" alt="img">
 					</div>
-					<div class="item">
+					<div class="item db-active">
 						<img src="img/db-our.jpg" alt="img">
 					</div>
 					<div class="item">

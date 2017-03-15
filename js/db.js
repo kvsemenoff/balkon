@@ -3,7 +3,7 @@ $(function(){
 var owl = $(".slider-db");
 
 owl.owlCarousel({
-
+        center:true,
         loop:true,//Зацикливаем слайдер
         nav:true, //Навигация включена
         autoplay:false,//автозапуск
@@ -17,11 +17,11 @@ owl.owlCarousel({
         768:{
             items:1
         },       
-        1000:{
-            items:1
+        992:{
+            items:3
         },
         1248:{
-            items:1
+            items:3
         }
     }
 
