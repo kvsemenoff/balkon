@@ -6,16 +6,16 @@
 		</div>
 	</div>
 	<div class="row flex-selector">
-		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><div class="quality-item quality-item1"></div></div>
-		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><div class="quality-item quality-item2"></div></div>
-		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><div class="quality-item quality-item3"></div></div>
-		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><div class="quality-item quality-item4"></div></div>
-		<div class="col-md-2 col-sm-3 col-xs-6" style="padding:0"><div class="quality-item quality-item5"></div></div>
+		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item1"></a href="#"></div>
+		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item2"></a href="#"></div>
+		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item3"></a href="#"></div>
+		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item4"></a href="#"></div>
+		<div class="col-md-2 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item5"></a href="#"></div>
 		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0">
-			<div class="quality-item quality-item6"></div>
+			<a href="#" class="quality-item quality-item6"></a href="#">
 		</div>
-		<div class="col-md-2 col-sm-3 col-xs-6" style="padding:0"><div class="quality-item quality-item7"></div></div>
-		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><div class="quality-item quality-item8"></div></div>
+		<div class="col-md-2 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item7"></a href="#"></div>
+		<div class="col-md-1 col-sm-3 col-xs-6" style="padding:0"><a href="#" class="quality-item quality-item8"></a href="#"></div>
 	</div>
 	<div class="row">
 		<div class="col-md-12">
