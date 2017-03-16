@@ -356,6 +356,52 @@
 	font-family: "pfdindisplaypro-bold";
 	font-size: 18px;
 }
+/* OtHER */
+.other {
+	padding-top: 35px;
+	padding-bottom: 65px;
+	background: url('/img/other-bg.jpg') 0% 0 no-repeat;
+	background-size: cover;
+}
+.other-title {
+	line-height: 35px;
+	margin-bottom: 50px;
+}
+
+.other-text {
+	font-family: "pfdindisplaypro-reg";
+	line-height: 18px;
+	color: #717171;
+	font-size: 14px;
+	font-weight: 400;
+	max-width: 199px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+.other-imgwrap {
+	display: inline-block;
+	vertical-align: middle;
+}
+.other-span {
+	color: #6488a5;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.other-item1 {
+	margin-bottom: 20px;
+}
+.other-item3 {
+	margin-bottom: 15px;
+}
+.other-left {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.other-right {
+	text-align: center;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -363,6 +409,13 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.other {
+		background: url('/img/other-bg.jpg') 55% 0 no-repeat;
+		background-size: cover;
+	}
+	.other-left {
+		margin-bottom: 0px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
@@ -416,7 +469,57 @@
 	.kbe {
 		width: 10%;
 	}
+	.other-item1 {
+		margin-bottom: 160px;
+		padding-right: 15px;
+	}
+	.other-item3 {
+		margin-bottom: 145px;
+	}
+	.other-text2, .other-text4 {
+		max-width: 238px;
+	}
+	.other {
+		padding-top: 55px;
+		padding-bottom: 200px;
+		background: url('/img/other-bg.jpg') 50% 0 no-repeat;
+		background-size: cover;
+	}
+	.other-item4 {
+		padding-left: 45px;
+	}
+	.other-item2 {
+		padding-right: 25px;
+	}
+	.other-left {
+		float: left;
+		text-align: right;
+		padding-top: 40px;
+	}
+	.other-right {
+		float: right;
+		text-align: left;
+	}
+	.other-text1 {
+		max-width: 255px;
+	}
+	.other-text3, .other-text4 {
+		text-align: left;
+		max-width: 275px;
+	}
+	.other-text4 {
+		max-width: 238px;
+	}
+	.other-text {
+		font-size: 16px;
+	}
+	.other-span {
+		font-size: 20px;
+	}
 }
 @media only screen and (min-width : 1248px) {
+	.other-text4 {
+		max-width: 275px;
+	}
 }
 
