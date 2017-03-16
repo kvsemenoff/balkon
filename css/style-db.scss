@@ -78,6 +78,37 @@
 	border: 2px solid #fd7a14;
 	border-radius: 10px;
 }
+.db-left{
+	background: url("../img/db-our-one.png")no-repeat top left;
+	width: 41px;
+	height: 41px;
+	display: block;
+}
+
+.db-right{
+	background: url("../img/db-our-two.png")no-repeat top right;
+	width: 41px;
+	height: 41px;
+	display: block;
+}
+
+
+.nextButton {
+	background: url("../img/db-our-one.png") no-repeat !important;
+	width: 41px !important;
+	height: 41px !important;
+	right: -25px !important;
+	top: 177px !important;
+
+}
+.prevButton {
+	background: url("../img/db-our-two.png") no-repeat !important;
+	width: 41px !important;
+	height: 41px !important;
+	left: -25px !important;
+	top: 171px !important;
+
+}
 @media only screen and (min-width : 320px) {
 }
 
