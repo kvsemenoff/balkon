@@ -4,16 +4,13 @@
 <div class="container">
 	<div class="row">
 		<d	iv class="wrap-first-cold">
-			<div class="col-md-5">
+			<div class="col-md-6">
 				<div class="wrap-cold-h1">
 					<h1>холодное остекление</h1>
 				</div>
 				<div class="cold-pic">
-					<img src="img/cold-pic-1.png" alt="" width="100%" height="auto">
+					<img src="img/cold-pic-1.png" alt="" class="di-cold-pic-1">
 				</div>
-			</div>
-			<div class="col-md-1">
-				<div class="cold-circle"></div>
 			</div>
 			<div class="col-md-6">
 				<div class="cold-wrap-text">
@@ -51,7 +48,8 @@
 			<div class="cold-some-text">
 				<div class="col-md-3">
 				<div class="cold-block1">
-					<div class="cold-wrap-img">
+					<div class="cold-wrap-img">	
+					<img src="img/cold-l-w.png" alt="" class="di-cold-pic-1">
 					</div>
 					<span>Низкий вес</span>
 					<p>	Благодаря низкому весу можно остеклять балкон в любом техническом состоянии без какой-либо опасности.</p>
@@ -60,6 +58,7 @@
 			<div class="col-md-3">
 				<div class="cold-block2">
 					<div class="cold-wrap-img">
+					<img src="img/cold-mov.png" width="100%" height="auto" alt="" class="di-cold-pic-1">
 					</div>
 					<span>Раздвижные створки</span>
 					<p>	Раздвижные створки позволяют значительно экномить место при открывании окон. Количество створок не ограничено, что делает удобным открытие любой части балкона.</p>
@@ -68,6 +67,7 @@
 			<div class="col-md-3">
 				<div class="cold-block3">
 					<div class="cold-wrap-img">
+					<img src="img/cold-mote-light.png" alt="" class="di-cold-pic-1">
 					</div>
 					<span>Больше света</span>
 					<p>	Узкий профиль не занимает много места, позволяя максимуму света поступать в помещение.</p>
@@ -76,6 +76,7 @@
 			<div class="col-md-3">
 				<div class="cold-block4">
 					<div class="cold-wrap-img">
+					<img src="img/cold-pig.png" alt="" class="di-cold-pic-1">
 					</div>
 					<span>Низкая цена</span>
 					<p>	Благодаря низкой стоимости этот вариант остекления доступен каждому.</p>

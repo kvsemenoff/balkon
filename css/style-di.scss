@@ -7,6 +7,10 @@ body{
 }
 .cold-pic{
 	margin-top: 20px;
+	.di-cold-pic-1{
+		width: 100%;
+		height: auto;
+	}
 }
 .wrap-first-cold{
 	border-radius: 5px;
@@ -32,19 +36,20 @@ body{
 // }
 
 .cold-wrap-text{
-	margin:0 auto;
-	margin-top: 15px;
-	max-width: 493px;
+	margin:15px auto;	
 	.r-text{
 		font-family:  $f-r;
 		font-size: 15px;
+		width: auto; 
 	}
 	.b-text{
+		text-align: center;
 		margin: 30px 0 0 0;
 		font-family: $f-b;
 		font-size: 16px;
 		text-transform: uppercase  
 	}
+
 }
 .cold-phone{
 	width: 270px;
@@ -91,6 +96,10 @@ body{
 		font-family: $f-r;
 		text-align: center; 
 	}
+	.di-cold-pic-1{
+			width: 100%;
+			height: auto;  
+		}
 }
 .cold-block1{
 	padding: 10px;
@@ -98,9 +107,11 @@ body{
 	margin: 0 auto;
 	.cold-wrap-img{
 		margin-left: 100px;
-		background-image: url(../img/cold-l-w.png);
-		height: 118px;
-		width: 100px; 
+		 
+	}
+	.di-cold-pic-1{
+		max-height: 118px;
+		max-width: 100px;
 	}
 	span{
 		margin-left: 76px; 
@@ -120,13 +131,15 @@ body{
 	width: 300px;
 	margin: 0 auto;
 	.cold-wrap-img{
+		    margin-top: 20px;
 		margin-left: 80px;
-		background-image: url(../img/cold-mov.png);
-		height: 115px;
-		width: 106px;
 	}
 	span{
 		margin-left: 36px;   
+	}
+	.di-cold-pic-1{
+		max-height: 115px;
+		max-width: 106px;
 	}
 }
 .cold-block3{
@@ -136,12 +149,13 @@ body{
 	.cold-wrap-img{
 		margin-top: 11px;
 		margin-left: 45px;
-		background-image: url(../img/cold-mote-light.png);
-		height: 102px;
-		width: 155px;
 	}
 	span{
 		margin-left: 61px;   
+	}
+	.di-cold-pic-1{
+		max-height: 102px;
+		max-width: 155px;
 	}
 }
 .cold-block4{
@@ -151,12 +165,13 @@ body{
 	.cold-wrap-img{
 		margin-top: 11px;
 		margin-left: 45px;
-		background-image: url(../img/cold-pig.png);
-		height: 100px;
-		width: 110px;
 	}
 	span{
 		margin-left: 61px;   
+	}
+	.di-cold-pic-1{
+		max-height: 100px;
+		max-width: 110px;
 	}
 }
 .cold-p{
@@ -167,6 +182,10 @@ body{
 
 
 @media only screen and (min-width : 320px) {
+	.wrap-cold-h1{
+		font-size: 27px;
+		min-width: 200px; 
+	}
 }
 
 @media only screen and (min-width : 480px) {
@@ -241,13 +260,14 @@ body{
 			font-family: $f-r;
 			text-align: center; 
 		}
+		.di-cold-pic-1{
+			width: 100%;
+			height: auto;  
+		}
 	}
 	.cold-block1{
 		.cold-wrap-img{
 			margin-left: 100px;
-			background-image: url(../img/cold-l-w.png);
-			height: 118px;
-			width: 100px; 
 		}
 		span{
 			margin-left: 76px; 
@@ -265,9 +285,6 @@ body{
 	.cold-block2{
 		.cold-wrap-img{
 			margin-left: 80px;
-			background-image: url(../img/cold-mov.png);
-			height: 115px;
-			width: 106px;
 		}
 		span{
 			margin-left: 36px;   
@@ -277,9 +294,6 @@ body{
 		.cold-wrap-img{
 			margin-top: 11px;
 			margin-left: 45px;
-			background-image: url(../img/cold-mote-light.png);
-			height: 102px;
-			width: 155px;
 		}
 		span{
 			margin-left: 61px;   
@@ -288,10 +302,7 @@ body{
 	.cold-block4{
 		.cold-wrap-img{
 			margin-top: 11px;
-			margin-left: 45px;
-			background-image: url(../img/cold-pig.png);
-			height: 100px;
-			width: 110px;
+			    margin-left: 62px;
 		}
 		span{
 			margin-left: 61px;   
@@ -301,6 +312,9 @@ body{
 		.select-promo{
 			margin-bottom: 30px;
 		}
+	}
+	.cold-wrap-text:before{
+		content: url(../img/cold-circle.png); 
 	}
 }
 
