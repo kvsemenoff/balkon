@@ -331,6 +331,162 @@
 }
 
 
+/* Остекленение балконов
+===================================*/
+.dd-main-title_vid{
+	padding: 30px 0px;
+	h1{
+		text-align: center;
+		color:black;
+		font-size: 20px;
+	}
+}
+.dd-title_view{
+	background-color: #2973aa;
+	text-align: center;
+	width: 261px;
+	margin: 0 auto;
+	transform:skewX(-15deg);
+	padding: 7px 5px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	span{
+		font-family: "pfdindisplaypro-reg";
+		font-weight: 500;
+		color:#fff;
+		font-size: 18px;
+		transform:skewX(15deg);
+		display: inline-block;
+		text-transform: uppercase;
+	}
+}
+.dd-img_vid{
+	text-align: center;
+}
+.dd-txt_vid{
+	text-align: left;
+	width: 188px;
+	margin: 0 auto;
+	span{
+		color: #2f2f2f;
+		display: inline-block;
+		font-family: "pfdindisplaypro-reg";
+		font-weight: 300;
+		font-size: 15px;
+		padding-left: 22px;
+		background:url(../img/galka.png) no-repeat left top;
+		margin-bottom: 10px;
+	}
+	span:last-child{
+		background:unset;
+		b{
+			font-size: 35px;
+			font-weight: 700;
+		}
+	}
+	.mb_none_vid{
+		margin-bottom: 25px;
+	}
+	.dd-sp4_vid{
+		padding-left: 0px;
+	}
+}
+.dd-but_txt{
+	text-align: center;
+	padding-top: 24px;
+}
+.dd-but_txt{
+	padding-bottom: 25px;
+}
+.button-my{
+	text-align: center;
+	display: inline-block;
+	width: 124px;
+	height: 40px;
+	background-image: linear-gradient(to top, #fd670c 0%, #feb52b 100%);
+	box-shadow: 1.5px 2.6px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 25px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 40px;
+	font-family: "pfdindisplaypro-reg";
+	color:#fff;
+	letter-spacing: -1px;
+}
+.dd-bottom-txt_vid{
+	text-align: center;
+	padding: 48px 0px;
+	p{
+		font-size: 16px;
+		color: #2f2f2f;
+		font-family: "pfdindisplaypro-reg";
+		font-weight: 300px;
+	}
+}
+.mt2{
+	margin-top: 50px;
+}
+
+/* Без доп платежей
+============================*/
+
+.dd-wrap_bp{
+	background:url(../img/fb.jpg) no-repeat top center;
+	padding: 0px 0px 50px;
+	background-size:cover;
+}
+.dd-img_bp{
+	text-align: center;
+	margin-top: -29px;
+}
+.dd-title_bp{
+	padding-top: 70px;
+	h1{
+		font-size: 35px;
+	}
+	font-size: 22px;
+	color:#fff;
+	font-weight: 300;
+	font-family: "pfdindisplaypro-reg";
+	text-align: center;
+}
+.dd-slogan_bp{
+	text-align: center;
+	margin-top: -33px;
+	span{
+		display: inline-block;
+		font-size: 22px;
+		color:#fff;
+		font-weight: 300;
+		font-family: "pfdindisplaypro-reg";
+		text-align: center;
+		// border:1px solid #628AA8;
+		border-radius: 24px;
+		height: 43px;
+		text-align: center;
+		padding: 0px 24px;
+		line-height: 39px;
+	}
+	.button-my{
+		margin-top: 15px;
+		width: 251px;
+		text-transform: uppercase;
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+}
+.dd-content_pb{
+	position: relative;
+}
+.dd-kr_pb{
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%);
+	top:-17px;
+}
+
+
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -357,6 +513,16 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.dd-slogan_bp{
+		span{
+			border:1px solid #628AA8;
+		}
+	}
+	.dd-slogan_bp{
+		.button-my{
+			margin-top: 0;
+		}
+	}
 	.dd-bottom_box{
 		width: 768px;
 		margin: 0 auto;
@@ -377,9 +543,79 @@
 	.dd-header-main{
 		background:url(../img/bigbg.jpg) no-repeat top center;
 	}
+	.float_vid{
+		float: left;
+		width: 262px;
+	}
+	.dd-title_view{
+		margin-left:0;
+	}
+	.dd-txt_vid {
+		text-align: left;
+		width: 260px;
+		margin: 0 auto;
+		padding-top: 27px;
+		padding-left: 15px;
+	}
+	.dd-but_txt {
+		text-align: left;
+		padding-top: 6px;
+		padding-left: 12px;
+	}
+	.mt{
+		margin-top: 50px;
+	}
+	.dd-main-title_vid{
+		h1{
+			font-size: 35px;
+		}
+	}
+	.mb{
+		margin-bottom: 53px !important;
+	}
+	.dd-box-wrap{
+		width: 524px;
+		margin: 0 auto;
+	}
 }
 
 @media only screen and (min-width : 992px) {
+	.mt2{
+		margin-top: 0;
+	}
+	.float_vid{
+		float: left;
+		width: 227px;
+	}
+	// .dd-title_view{
+	// 	margin-left:0;
+	// }
+	// .dd-txt_vid {
+	// 	text-align: left;
+	// 	width: 260px;
+	// 	margin: 0 auto;
+	// 	padding-top: 27px;
+	// 	padding-left: 15px;
+	// }
+	// .dd-but_txt {
+	// 	text-align: left;
+	// 	padding-top: 6px;
+	// 	padding-left: 12px;
+	// }
+	// .mt{
+	// 	margin-top: 50px;
+	// }
+	// .dd-main-title_vid{
+	// 	h1{
+	// 		font-size: 35px;
+	// 	}
+	// }
+	// .mb{
+	// 	margin-bottom: 53px !important;
+	// }
+
+	//////////////////////
+
 	.dd-str_2 {
 		bottom: -106px;
 		left: 40%;
@@ -492,6 +728,10 @@
 }
 
 @media only screen and (min-width : 1248px) {
+	.float_vid{
+		float: left;
+		width: unset;
+	}
 	.section_we{
 		.we-wrap{
 			.dd-box_1{
