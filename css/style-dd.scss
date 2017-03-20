@@ -331,6 +331,66 @@
 }
 
 
+/* Остекленение балконов
+===================================*/
+.dd-main-title_vid{
+	padding: 20px 0px;
+	h1{
+		text-align: center;
+		color:black;
+		font-size: 20px;
+	}
+}
+.dd-title_view{
+	background-color: #2973aa;
+	text-align: center;
+	width: 260px;
+	margin: 0 auto;
+	transform:skewX(-15deg);
+	padding: 5px 5px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	span{
+		font-family: "pfdindisplaypro-reg";
+		font-weight: 500;
+		color:#fff;
+		font-size: 20px;
+		transform:skewX(15deg);
+		display: inline-block;
+		text-transform: uppercase;
+	}
+}
+.dd-img_vid{
+	text-align: center;
+}
+.dd-txt_vid{
+	text-align: left;
+	width: 188px;
+	margin: 0 auto;
+	span{
+		color: #2f2f2f;
+		display: inline-block;
+		font-family: "pfdindisplaypro-reg";
+		font-weight: 300;
+		font-size: 15px;
+		padding-left: 22px;
+		background:url(../img/galka.png) no-repeat left top;
+	}
+	span:last-child{
+		background:unset;
+		b{
+			font-size: 35px;
+			font-weight: 700;
+		}
+	}
+}
+.dd-but_txt{
+	text-align: center;
+	a{
+		color:black;
+	}
+}
+
 @media only screen and (min-width : 320px) {
 }
 
