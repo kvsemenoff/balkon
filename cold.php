@@ -3,12 +3,13 @@
 <?php require_once('bread.php'); ?>
 <div class="container">
 	<div class="row">
-		<div class="wrap-first-cold">
+		<d	iv class="wrap-first-cold">
 			<div class="col-md-5">
 				<div class="wrap-cold-h1">
 					<h1>холодное остекление</h1>
 				</div>
 				<div class="cold-pic">
+					<img src="img/cold-pic-1.png" alt="" width="100%" height="auto">
 				</div>
 			</div>
 			<div class="col-md-1">
@@ -84,8 +85,71 @@
 		</div>
 	</div>
 </div>
-<div class="cold-our-works">
-	<?php require_once('includes/our.php'); ?>
+<div class="di-cold-our-works">
+	<section class="section section_padding">
+	<div class=" container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="db-our-h1">Примеры холодного остекления</h1>
+				<div class="carousel"> <!-- BEGIN CAROUSEL -->
+
+					<div class="slides"> <!-- BEGIN SLIDES -->
+
+						<div> <!-- SLIDE ITEM -->
+							<a href="#"> 
+								<img src="img/db-our.jpg" />
+							</a>           
+						</div>
+
+						<div> <!-- SLIDE ITEM -->
+							<a href="#"> 
+								<img src="img/db-our.jpg" />
+							</a>            
+						</div>
+
+						<div> <!-- SLIDE ITEM -->
+							<a href="#"> 
+								<img src="img/db-our.jpg" />
+							</a>            
+						</div>
+
+						<div> <!-- SLIDE ITEM -->
+							<a href="#"> 
+								<img src="img/db-our.jpg" />
+							</a>            
+						</div>
+
+						<div> <!-- SLIDE ITEM -->
+							<a href="#"> 
+								<img src="img/db-our.jpg" />
+							</a>            
+						</div>
+
+						<div> <!-- SLIDE ITEM -->
+							<a href="#"> 
+								<img src="img/db-our.jpg" />
+							</a>            
+						</div>
+
+						<div> <!-- SLIDE ITEM -->
+							<a href="#"> 
+								<img src="img/db-our.jpg" />
+							</a>            
+						</div>
+
+					</div> <!-- END SLIDES -->
+					
+
+				</div> <!-- END CAROUSEL -->
+
+
+
+				<a href="#" class="db-our-a">Посмотреть другие работы</a>
+				<p>Кто-то желает превратить балкон в теплую и комфортабельную комнату, кто-то использует его в качестве технического или хозяйственного помещения, а кому-то достаточно, чтобы внутрь лоджии просто не попадали осадки, пыль и грязь.</p>
+			</div>
+		</div>
+	</div>
+</section>
 </div>
 <?php require_once('includes/footer.php'); ?>
 </body>
