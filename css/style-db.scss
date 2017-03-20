@@ -68,6 +68,7 @@
 .db-our-h1{
 	color: #010101;
 	font-size: 35px;
+	padding-bottom: 30px;
 }
 .db-our-a{
 	color: #010101;
@@ -76,7 +77,12 @@
 	text-transform: uppercase;
 	font-family: "pfdindisplaypro-med";
 	border: 2px solid #fd7a14;
-	border-radius: 10px;
+	display: block;
+	width: 304px;
+	margin: 0 auto;
+	padding: 15px 19px;
+	border-radius: 26px;
+	margin-top: 28px;
 }
 .db-left{
 	background: url("../img/db-our-one.png")no-repeat top left;
@@ -91,13 +97,18 @@
 	height: 41px;
 	display: block;
 }
-
+.carousel{
+	overflow: unset !important;
+}
+.slides{
+	overflow: hidden !important;
+}
 
 .nextButton {
 	background: url("../img/db-our-one.png") no-repeat !important;
 	width: 41px !important;
 	height: 41px !important;
-	right: -25px !important;
+	right: -22px !important;
 	top: 177px !important;
 
 }
@@ -105,7 +116,7 @@
 	background: url("../img/db-our-two.png") no-repeat !important;
 	width: 41px !important;
 	height: 41px !important;
-	left: -25px !important;
+	left: -24px !important;
 	top: 171px !important;
 
 }
