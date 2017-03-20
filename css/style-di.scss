@@ -314,7 +314,9 @@ body{
 		}
 	}
 	.cold-wrap-text:before{
-		content: url(../img/cold-circle.png); 
+		content: url(../img/cold-circle.png);
+		position: absolute;
+		left: -10px;
 	}
 }
 
