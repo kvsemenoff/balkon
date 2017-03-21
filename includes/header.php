@@ -15,8 +15,8 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-<!-- 	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<script src="libs/owl.carousel/owl.carousel.min.js"></script> -->
+	<script src="libs/owl.carousel/owl.carousel.js"></script>
+	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
 	<script src="libs/owl.carousel/jquery.carousel-1.1.min.js"></script>
 	<script src="libs/carousel/jquery.carousel-1.1.js"></script>
 	<script src="libs/carousel/jquery.carousel-1.1.min.js"></script>
