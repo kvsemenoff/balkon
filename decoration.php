@@ -175,7 +175,7 @@
 		</div>
 	</section>
 	
-
+	<!-- section slidertab -->
 	<section class="dfbgwhite">
 		<div class="container">
 			<h2 class="dfdectopcap dfcapsl">цены на дополнительные услуги</h2>
