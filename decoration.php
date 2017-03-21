@@ -523,7 +523,68 @@
 			</div>
 
 		</div>
-	</section>	
+
+	</section >
+	
+	<section class="di-dec">
+		<div class="di-glazing-bg">
+			<div class="wrap-di-glazing">
+				<h2 class="h2-black">Вам понадобится остекление?</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="di-left-content-decor">
+								<div class="di-wrap-span-decor-cost">
+									<div class="di-wrap-span-decor">
+										<div class="di-decor-wrap-text">
+											<span>Тёплое остекление</span>
+										</div>
+									</div>
+								</div>
+								<img src="img/di-dec-l.png">
+							</div>
+							<div class="di-left-decor-text">
+								<p class="di-left-decor">
+									Превратите балкон в полноценную комнату с отделкой и возможностью использования в зимнее время. Рабочий кабинет, столовая или игровая комната для детей - Решать Вам!
+									<br><a href="#">Подробнее о преимуществах теплого остекления</a>
+								</p>
+								<p class="di-price">
+									от  <span>21430 руб</span>
+									<div class="wrap-but">
+										<a class="button-my">Выбрать</a>
+									</div>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="di-left-content-decor">
+								<div class="di-wrap-span-decor-cost">
+									<div class="di-wrap-span-decor">
+										<div class="di-decor-wrap-text">
+											<span>Отделка балкона</span>
+										</div>
+									</div>
+								</div>
+								<img src="img/di-dec-r.png">
+							</div>
+							<div class="di-left-decor-text">
+								<p class="di-left-decor">
+									Превратите балкон в полноценную комнату с отделкой и возможностью использования в зимнее время. Рабочий кабинет, столовая или игровая комната для детей - Решать Вам!
+									<br><a href="#">Подробнее о преимуществах теплого остекления</a>
+								</p>
+								<p class="di-price">
+									от  <span>21430 руб</span>
+									<div class="wrap-but">
+										<a class="button-my">Выбрать</a>
+									</div>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>  
+		</div>
+	</section>
 
 
 
