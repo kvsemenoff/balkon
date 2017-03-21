@@ -1,4 +1,4 @@
-<section class="dfbgwhite">
+<section class="dfbgcolor">
 	<div class="container">
 			<h2 class="dfdectopcap dfcapsl">цены на дополнительные услуги</h2>
 			<div class="dftxtbottom dfsltop">Кто-то желает превратить балкон в теплую и комфортабельную комнату, кто-то использует его в качестве технического или хозяйственного помещения, а кому-то достаточно, чтобы внутрь лоджии просто не попадали осадки, пыль и грязь.</div>
@@ -259,48 +259,3 @@
 		</div>			
 	</div>
 </section>	
-
-<script>
-	$('.dfnavlink').on('click' , function(e){
-	e.preventDefault();
-	var thishref = $(this).attr('href');
-	$('.dfnavtab').find('.dfactivelink').removeClass('dfactivelink');
-	$(this).addClass('dfactivelink');
-	$('.dfslider').not(thishref).css('display', 'none');
-	$(thishref).css('display', 'block');
-
-	
-
-	$('.dfslider').each(function() {
-		 var $owlitem1 = $(thishref);
-	     $owlitem1.trigger('destroy.owl.carousel');
-
-		$owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
-		$owlitem1.owlCarousel({                           
-			loop:true,
-			nav:true, 
-			autoplay:false,
-			smartSpeed:1000,
-			margin:15,    
-			navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-			responsive:{
-				0:{
-					items:1
-				},
-				410:{
-					items:1   
-				},        
-				700:{
-					items:1
-				},
-				1000:{
-					items:1
-				}
-			}
-		});   
-	});
-
-});
-$('.dfnavlink:first').click();
-
-</script>
