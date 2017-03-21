@@ -1,6 +1,6 @@
 <section class="dfbgcolor">
 	<div class="container">
-			<h2 class="dfdectopcap dfcapsl">цены на дополнительные услуги</h2>
+			<h2 class="dfdectopcap dfcapsl">Отделка и утепление балкона</h2>
 			<div class="dftxtbottom dfsltop">Кто-то желает превратить балкон в теплую и комфортабельную комнату, кто-то использует его в качестве технического или хозяйственного помещения, а кому-то достаточно, чтобы внутрь лоджии просто не попадали осадки, пыль и грязь.</div>
 
 			<div class="dfslider" id="dfbalk1">
@@ -243,19 +243,20 @@
 			</div>	
 
 
-			<div class="dfnavtab">
+			<div class="dfnavtab dfbalkon" >
 				<ul>
-					<li><a href="#dfbalk1" class="dfnavlink dfactivelink"><b>Готовые дизайны </b> </a></li>
-					<li><a href="#dfbalk2" class="dfnavlink"><b>Утепление</b></a></li>
-					<li><a href="#dfbalk3" class="dfnavlink"><b>Освещение</b></a></li>
-					<li><a href="#dfbalk4" class="dfnavlink"><b>Шкафы</b></a></li>
-					<li><a href="#dfbalk5" class="dfnavlink"><b>Объединение с комнатой</b></a></li>
-					<li><a href="#dfbalk6" class="dfnavlink"><b>Пристроить балкон</b></a></li>
-					<li><a href="#dfbalk7" class="dfnavlink"><b>Теплый пол</b></a></li>
+					<li><a href="#dfbalk1" class="dfnavlink dfactivelink"><b>Ламинированные панели   </b> </a></li>
+					<li><a href="#dfbalk2" class="dfnavlink"><b>Пластиковые панели</b></a></li>
+					<li><a href="#dfbalk3" class="dfnavlink"><b>Вагонка</b></a></li>
+					<li><a href="#dfbalk4" class="dfnavlink"><b>МДФ</b></a></li>
+					<li><a href="#dfbalk5" class="dfnavlink"><b>Камень</b></a></li>
+					<li><a href="#dfbalk6" class="dfnavlink"><b>Кирпич</b></a></li>
+					<li><a href="#dfbalk7" class="dfnavlink"><b>Штукатурка </b></a></li>
+					<li><a href="#dfbalk7" class="dfnavlink"><b> Утепление</b></a></li>
 				</ul>
 			</div>
 			<div class="dflinksliderbot">
-				<a href="#">заказать дополнительную услугу</a>
-		</div>			
+				<a href="#">заказать отделку под ключ</a>
+			</div>			
 	</div>
 </section>	

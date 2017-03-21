@@ -408,6 +408,18 @@
 .dfslider {
   display: none; }
 
+/*====balkon===============*/
+.dfbalkon .dfnavlink:hover {
+  background-color: #c9bba6; }
+.dfbalkon .dfnavlink:hover:after {
+  border-bottom: 10px solid #c9bba6; }
+.dfbalkon .dfactivelink {
+  background-color: #c9bba6; }
+  .dfbalkon .dfactivelink b {
+    border-bottom-color: transparent; }
+  .dfbalkon .dfactivelink:after {
+    border-bottom: 10px solid #c9bba6; }
+
 @media only screen and (min-width: 992px) {
   .dfnav1 .df-left, .dfnav2 .df-left, .dfnav3 .df-left {
     left: -30px; }

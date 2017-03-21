@@ -469,7 +469,26 @@
 .dfslider{
 	display: none;
 }
-
+/*====balkon===============*/
+.dfbalkon{
+	.dfnavlink{			
+		&:hover{
+			background-color: #c9bba6;			
+		}
+		&:hover:after{			
+			border-bottom: 10px solid #c9bba6;
+		}
+	}
+	.dfactivelink{
+		background-color: #c9bba6;	
+		b{
+			border-bottom-color: transparent;
+		}
+		&:after{			
+			border-bottom: 10px solid #c9bba6;
+		}
+	}
+}
 
 
 @media only screen and (min-width : 320px) {
