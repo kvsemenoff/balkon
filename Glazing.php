@@ -169,6 +169,220 @@
 
 	<!-- Конец Без доп платежей -->
 
+	<!-- Сколько стоит остекленение -->
+
+	<section class="dd-section_h">
+		<div class="container bg-center">
+			<div class="row">
+
+				<div class="col-md-12">
+					<div class="dd-main-title_h">
+						<h1>Сколько стоит остекленение балкона</h1>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="dd-wrap_h">
+						<div class="dd-title_h">
+							<span>Лоджия</span>
+						</div>
+
+						<div class="dd-box_h">
+
+							<div class="dd-img_h">
+								<img src="img/h1.png" alt="">
+							</div>
+							<div class="dd-img-detail_h">
+								<span>Размер 3000х1500 мм.</span><br>
+								<a class="button-my" href="#">Заказать</a>
+							</div>
+
+						</div>
+
+						<div class="dd-box_h">
+
+							<div class="dd-min-box_h">
+								<span>Холодное остекленение</span>
+								<div class="dd-bottom-box_h">
+									<span>Раздвижное алюминиевое остекление <br>
+										«под ключ»
+									</span><br>
+									<span>Цена: от <b>23200</b> руб.</span>
+								</div>
+							</div>
+
+							<div class="dd-min-box_h">
+								<span>Холодное остекленение</span>
+								<div class="dd-bottom-box_h">
+									<span>Двухкамерное остекление окнами Гжель<br>
+										60 «под ключ»
+									</span><br>
+									<span>Цена: от <b>28100</b> руб.</span>
+								</div>
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+
+					</div>
+
+				</div><!-- col-md-6 -->
+
+				<div class="col-md-6">
+					<div class="dd-wrap_h">
+						<div class="dd-title_h">
+							<span>П-образный балкон</span>
+						</div>
+
+						<div class="dd-box_h">
+
+							<div class="dd-img_h">
+								<img src="img/h2.png" alt="">
+							</div>
+							<div class="dd-img-detail_h mt_h">
+								<span>Размер 3000х1500 мм.</span><br>
+								<a class="button-my" href="#">Заказать</a>
+							</div>
+
+						</div>
+
+						<div class="dd-box_h">
+
+							<div class="dd-min-box_h">
+								<span>Холодное остекленение</span>
+								<div class="dd-bottom-box_h">
+									<span>Раздвижное алюминиевое остекление <br>
+										«под ключ»
+									</span><br>
+									<span>Цена: от <b>37600</b> руб.</span>
+								</div>
+							</div>
+
+							<div class="dd-min-box_h">
+								<span>Холодное остекленение</span>
+								<div class="dd-bottom-box_h">
+									<span>Двухкамерное остекление окнами Гжель<br>
+										60 «под ключ»
+									</span><br>
+									<span>Цена: от <b>40500</b> руб.</span>
+								</div>
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				
+				<div class="col-md-6">
+
+					<div class="dd-wrap_h">
+						<div class="dd-title_h">
+							<span>Остекленение в хрущевке</span>
+						</div>
+
+						<div class="dd-box_h">
+
+							<div class="dd-img_h">
+								<img src="img/h2.png" alt="">
+							</div>
+							<div class="dd-img-detail_h">
+								<span>Размер 3000х1500 мм.</span><br>
+								<a class="button-my" href="#">Заказать</a>
+							</div>
+
+						</div>
+
+						<div class="dd-box_h">
+
+							<div class="dd-min-box_h">
+								<span>Холодное остекленение</span>
+								<div class="dd-bottom-box_h">
+									<span>Раздвижное алюминиевое остекление <br>
+										«под ключ»
+									</span><br>
+									<span>Цена: от <b>37600</b> руб.</span>
+								</div>
+							</div>
+
+							<div class="dd-min-box_h">
+								<span>Холодное остекленение</span>
+								<div class="dd-bottom-box_h">
+									<span>Раздвижное алюминиевое остекление <br>
+										«под ключ»
+									</span><br>
+									<span>Цена: от <b>40500</b> руб.</span>
+								</div>
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+
+					</div>
+
+				</div><!-- col-md-6 -->
+
+				<div class="col-md-6">
+					<div class="dd-wrap_h">
+						<div class="dd-title_h">
+							<span>Угловой балкон</span>
+						</div>
+
+						<div class="dd-box_h">
+
+							<div class="dd-img_h">
+								<img src="img/h33.png" alt="">
+							</div>
+							<div class="dd-img-detail_h">
+								<span>Размер 3000х1500 мм.</span><br>
+								<a class="button-my" href="#">Заказать</a>
+							</div>
+
+						</div>
+
+						<div class="dd-box_h">
+
+							<div class="dd-min-box_h">
+								<span>Холодное остекленение</span>
+								<div class="dd-bottom-box_h">
+									<span>Раздвижное алюминиевое остекление <br>
+										«под ключ»
+									</span><br>
+									<span>Цена: от <b>36400</b> руб.</span>
+								</div>
+							</div>
+
+							<div class="dd-min-box_h">
+								<span>Холодное остекленение</span>
+								<div class="dd-bottom-box_h">
+									<span>Раздвижное алюминиевое остекление <br>
+										«под ключ»
+									</span><br>
+									<span>Цена: от <b>30300</b> руб.</span>
+								</div>
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+
+					</div>
+				</div>
+				<div class="clearfix"></div>
+
+				<div class="col-md-12">
+					<div class="dd-but_h">
+						<a href="#">Перейти на страницу цен</a>
+					</div>
+				</div>
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</section>
+
+	<!-- Конец Сколько стоит остекленение -->
+
 
 
 	<?php require_once('includes/footer.php'); ?>
