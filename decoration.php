@@ -586,6 +586,62 @@
 		</div>
 	</section>
 
+	<section class="dd-wrap_lp">
+	<div class="container">
+		<div class="row">		
+			<div class="clearfix"></div>
+
+			<div class="col-md-12">
+				<div class="dd-box-txt_lp">
+					<p>Можно с легкостью найти множество причин для того, чтобы произвести остекление балкона. Это не только эстетическая красота, но и практичность остекленного балкона. Ваш балкон будет защищен от уличного шума, грязи и пыли, а также будет сохранять тепло внутри дома.
+					</p>
+					<div class="dd-box-grey_lp">
+						<p>
+							Все эти функции будут выполняться вашим балконом только в том случае, если остекление производиться профессионалами, а качество используемых алюминиевых или пластиковых конструкций отвечает самым высоким требованиям. Не стоит сразу кидаться на те предложения и объявления, которые обещают слишком низкую стоимость остекления балконов. <br><br>
+
+							В нашей компании вы сможете заказать действительно качественный балкон под ключ. Наши специалисты проведут остекление из алюминия или ПВХ, а также утеплят балкон и займутся его внутренней и внешней обшивкой.
+						</p>
+					</div>	
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			
+		</div>
+	</div>
+</section>
+<section class="section section_padding section_db-zamer_view dbbg2">
+	<div class=" container">
+		<div class="row">
+			<div class="col-md-12">
+				<p class="db-zamer_p-one">запишитесь на бесплатный замер<br>
+					<span>и получите 2000 руб!</span>
+				</p>
+				<p class="db-zamer_p-two">
+					До 18 января получите дополнительную скидку 2 000 руб. при выезде замерщика. Просто заполните форму ниже!
+				</p>
+			</div>
+			<form action="#" method="post" class="db-zamer-form">
+				<div class="col-md-4">
+					<input type="text" placeholder="Имя" name="uname">
+				</div>
+				<div class="col-md-4">
+					<input type="text" placeholder="Телефон" name="phone">
+				</div>
+				<div class="col-md-4">
+					<input type="submit" value="перезвоните мне" name="submit">
+				</div>
+			</form>
+			<div class="clearfix"></div>
+			<div class="col-md-12">
+				<p class="db-zamer_p-three">И мы скоро вам перезвоним<br>
+					<span>Сегодня записались 12 человек, последний 16 минут назад</span>
+				</p>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
 
 
 	

@@ -443,7 +443,11 @@
         margin-right: 0; }
 
   .dflinksliderbot {
-    padding: 24px 0 40px 0; } }
+    padding: 24px 0 40px 0; }
+
+  /*section bg 2*/
+  .dbbg2 {
+    background: url(../img/db-zamer2.png) no-repeat top center !important; } }
 @media only screen and (min-width: 1200px) {
   .dfdectopcap {
     margin: 50px 0; }
