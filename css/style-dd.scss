@@ -741,10 +741,132 @@
 	}
 }
 
+/* Вынос балкона 3 варианта
+===============================*/
+.str_5{
+	position: relative;
+}
+.dd-str-5{
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%);
+	top:-71px;
+}
+.dd-wrap_tv{
+	background:url(../img/br.png) no-repeat top center;
+	background-size:cover;
+	padding-top: 55px;
+	margin-top: 40px;
+}
+.dd-box_tv{
+	text-align: center;
+	padding-bottom: 46px;
+}
+.dd-title_tv{
+	// padding-top: 24px;
+	padding-bottom: 53px;
+	text-align: center;
+	h1{
+		text-align: center;
+		color:#fff;
+		font-size: 35px;
+		padding-bottom: 16px;
+	}
+	span{
+		font-size: 16px;
+		color:#fff;
+		font-family: "pfdindisplaypro-reg";
+		font-weight: 300;
+	}
+}
+.dd-title-box_tv{
+	display: inline-block;
+	background:#FEC957;
+	border-radius: 6px;
+	transform:skew(-13deg);
+	padding: 7px 20px;
+	.dd-title-span_tv{
+		span{
+			transform:skew(13deg);
+			display: inline-block;
+			font-size: 16px;
+			font-family: "pfdindisplaypro-reg";
+			font-weight: 500;
+			text-transform: uppercase;
+			color: #174567;
+		}
+	}
+}
+.dd-img_tv{
+	span{
+		font-size: 13px;
+		color:#fff;
+		font-family: "pfdindisplaypro-reg";
+		font-weight: 300;
+		padding-right: 8px;
+	}
+	span:last-child{
+		font-size: 14px;
+		display: inline-block;
+		padding-top: 18px;
+	}
+}
+.dd-img_tv{
+	text-align: center;
+	background:url(../img/btv.png) no-repeat top center;
+	height: 233px;
+	margin-top: -95px;
+}
 
-
-
-
+.dd-img_txt{
+	padding-top: 111px;
+}
+.dd-txt_tv{
+	p{
+		font-size: 16px;
+		color:#fff;
+		font-family: "pfdindisplaypro-reg";
+		font-weight: 300;
+		padding-right: 17px;
+	}
+}
+.dd-img_tv_2{
+	background:url(../img/btv2.png) no-repeat top 7px center;
+	.dd-img_txt{
+		span{
+			padding-right: 0;
+		}
+	}
+}
+.dd-img_tv_3{
+	// background:url(../img/btv3.png) no-repeat top 10px left 6px;
+	background:url(../img/btv3.png) no-repeat top 10px center;	
+}
+.pl_tv{
+	padding-left: 25px;
+}
+.dd-im3{
+	padding-right: 18px;
+}
+.dd-txt_tv2{
+	p{
+		padding-right: 0px;
+	}
+}
+.dd-bottom_tv{
+	p{
+		padding-top: 14px;
+		font-family: "pfdindisplaypro-reg";
+		color: #ffba26;
+		font-size: 23px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+.mt0{
+	margin-top: 0 !important;
+	padding-top: 20px;
+}
 
 @media only screen and (min-width : 320px) {
 }

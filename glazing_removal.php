@@ -147,9 +147,113 @@
 	</div><!-- container -->
 </section>
 
+<!-- вынос 3 варианта -->
+
+<section class="dd-wrap_tv">
+	<div class="container str_5">
+		<div class="dd-str-5">
+			<img src="img/str5.png" alt="">
+		</div>
+		<div class="row">
+
+			<div class="col-md-12">
+				<div class="dd-title_tv">
+					<h1>Вынос балкона - 3 варианта</h1>
+					<span>Наша компания уже очень долгое время занимается остеклением балконов и лоджий. Мы используем только провереные временем технологии и на собственном опыте убедились, что самыми популярными вариантами выносноного остекления являются:
+					</span>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="dd-box_tv">
+
+					<div class="dd-title-box_tv">
+						<div class="dd-title-span_tv">
+							<span>вынос по периметру</span>
+						</div>
+					</div>
+
+					<div class="dd-img_tv">
+						<div class="dd-img_txt">
+							<span>вынос</span><br>
+							<span>вид балкона<br> сверху</span>
+						</div>
+					</div>
+
+					<div class="dd-txt_tv">
+						<p>
+							Увеличение полезной площади<br> балкона по всему периметру<br> парапета
+						</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="dd-box_tv">
+
+					<div class="dd-title-box_tv">
+						<div class="dd-title-span_tv">
+							<span>вынос по фронтальной стороне</span>
+						</div>
+					</div>
+
+					<div class="dd-img_tv dd-img_tv_2">
+						<div class="dd-img_txt">
+							<span>вынос</span><br>
+							<span>вид балкона<br> сверху</span>
+						</div>
+					</div>
+
+					<div class="dd-txt_tv dd-txt_tv2">
+						<p>
+							Увеличение полезной площади<br> балкона по фронтальной стороне
+						</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="dd-box_tv">
+
+					<div class="dd-title-box_tv">
+						<div class="dd-title-span_tv">
+							<span>вынос по сторонам</span>
+						</div>
+					</div>
+					<div class="dd-im3">
+						<div class="dd-img_tv dd-img_tv_3">
+						<div class="dd-img_txt pl_tv">
+								<span>вынос</span><br>
+								<span>вид балкона<br> сверху</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="dd-txt_tv pl_tv">
+						<p>
+							Вынос остекленения<br> в стороны
+						</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-12">
+				<div class="dd-title_tv dd-bottom_tv">
+					<span>Вынос остекления по периметру или в сторону больше подойдет тем, кто хочет иметь встроенную мебель на своем балконе - стеллажи, шкафы, тумбы. В них легко можно хранить банки с консервацией, ящики с инструментами, книги и многое другое. 
+					</span>
+					<p>Всю неделю действует специальная цена на вынос остекления</p>
+				</div>
+			</div>
+
+		</div><!-- row -->
+	</div><!-- container -->
+</section>
+
+<!-- конец вынос 3 варианта -->
 
 
-<div class="di-cold-our-works">
+<div class="di-cold-our-works mt0">
 	<section class="section section_padding">
 		<div class=" container">
 			<div class="row">
