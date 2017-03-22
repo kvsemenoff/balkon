@@ -179,7 +179,79 @@ body{
 		margin-bottom: 30px;
 	}
 }
+/*Decor*/
+.di-price{
+	padding-bottom: 20px;
+}
+.di-dec{
+	.h2-black{
+		    padding-top: 30px;
+	}
+}
+.di-wrap-span-decor{
+		background: #2973AA;
+		display: inline-block;
+		padding: 9px 17px;
+		transform: skew(-20deg);
+		border-radius: 8px;
+		position: relative;
+		.di-decor-wrap-text{
+			transform: skew(20deg);	
+		}
+		span{
+			font-size: 20px;
+			font-family: $f-m;
+			text-transform: uppercase;
+			color: #FFF;
 
+		}
+	}
+	.di-wrap-span-decor-cost{
+		width: 270px;
+		margin: 20px auto;  
+	}
+	.di-glazing-bg{
+		
+		width: 100%;
+		height: auto;  
+	}
+	.di-left-content-decor{
+		width: 500px;
+		margin: 0 auto; 
+		img{
+			width: 100%;
+			height: auto; 
+		}
+	}
+	.di-left-decor{
+		margin: 20px auto;
+		width: 443px;
+		font-family: $f-r;
+		font-size: 15px;
+		a{
+			text-decoration: underline;
+			line-height: 1.5; 
+		}
+	}
+	.di-price{
+		display: inline-block;
+		    margin-left: 51px;
+    margin-top: -10px;
+		font-family: $f-r;
+		font-size: 15px;
+		span{
+			font-family: $f-b;
+			font-size: 35px;  
+		}   
+	}
+	.wrap-but{
+		display: inline-block;
+		margin-left: 20px;
+	}
+	.di-left-decor-text{
+		    width: 378px;
+    margin: 0 auto;
+	}
 
 @media only screen and (min-width : 320px) {
 	.wrap-cold-h1{
@@ -197,7 +269,7 @@ body{
 @media only screen and (min-width : 992px) {
 	.second-cold{
 		margin-top:50px;
-}
+	}
 	.wrap-cold-h1{
 		float: left;
 		min-width: 400px;
@@ -302,7 +374,7 @@ body{
 	.cold-block4{
 		.cold-wrap-img{
 			margin-top: 11px;
-			    margin-left: 62px;
+			margin-left: 62px;
 		}
 		span{
 			margin-left: 61px;   
@@ -318,8 +390,50 @@ body{
 		position: absolute;
 		left: -10px;
 	}
-}
 
+
+	/*Decoration*/
+	.di-left-content-decor{
+		width: 500px;
+		margin: 0 auto; 
+		img{
+			width: 100%;
+			height: auto; 
+		}
+	}
+	.di-left-decor{
+		margin: 20px auto;
+		width: 443px;
+		font-family: $f-r;
+		font-size: 15px;
+		a{
+			text-decoration: underline;
+			line-height: 1.5; 
+		}
+	}
+	.di-left-decor-text:before{
+		content: url(../img/di-decor-before.png);
+		position: absolute;
+		left: 40px;
+	}
+	.di-price{
+		display: inline-block;
+		    margin-left: 51px;
+    margin-top: -10px;
+		font-family: $f-r;
+		font-size: 15px;
+		span{
+			font-family: $f-b;
+			font-size: 35px;  
+		}   
+	}
+	.wrap-but{
+		display: inline-block;
+		margin-left: 20px;
+	}
+	.wrap-di-glazing{
+	}
+}
 @media only screen and (min-width : 1248px) {
 }
 
