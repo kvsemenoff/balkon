@@ -586,7 +586,7 @@
 		</div>
 	</section>
 
-	<section class="dd-wrap_lp">
+<section class="dd-wrap_lp">
 	<div class="container">
 		<div class="row">		
 			<div class="clearfix"></div>
