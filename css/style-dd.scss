@@ -1,4 +1,30 @@
 
+/* Хлебные крошки
+================================*/
+.dd-brad-cramp{
+	a, span{
+		font-size: 15px;
+		font-weight: 300;
+		font-family: "pfdindisplaypro-reg";
+		display: inline-block;
+	}
+	a{
+		color: #2973aa;
+		border-bottom: 1px dashed #A0A0A0;
+	}
+	span{
+		color: #010101;
+	}
+	.dd-str_bc{
+		background:url(../img/stbc.jpg) no-repeat top center;
+		width: 14px;
+		height: 5px;
+	}
+}
+
+////////////////////////////////
+
+
 .dd-menu-mobile{
 	text-align: right;
 	background:#2973AA;
@@ -104,6 +130,7 @@
 	position: absolute;
 	left:25%;
 	bottom:-25px;
+	z-index: 99;
 }
 .dd-box-main_h{
 	max-width: 530px;

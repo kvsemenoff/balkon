@@ -1,4 +1,5 @@
 <?php require_once('includes/header.php'); ?>
+
 <div class="dd-menu-mobile">
 	<div class="js-but">
 		<img src="img/burg.png" alt="">
@@ -54,6 +55,26 @@
 		</div>
 	</section>
 </div>
+
+<!-- Хлебные крошки -->
+
+<section class="section section_padding">
+	<div class=" container">
+		<div class="row">
+			<div class="col-md-12">
+				
+				<div class="dd-brad-cramp">
+					<a href="#">Главная</a>
+					<span class="dd-str_bc"></span>
+					<a href="#">тест</a>
+					<span class="dd-str_bc"></span>
+					<span>конечная страница</span>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
 
 <section class="dd-wrap_ov">
 	<div class="container">
@@ -222,7 +243,7 @@
 					</div>
 					<div class="dd-im3">
 						<div class="dd-img_tv dd-img_tv_3">
-						<div class="dd-img_txt pl_tv">
+							<div class="dd-img_txt pl_tv">
 								<span>вынос</span><br>
 								<span>вид балкона<br> сверху</span>
 							</div>
