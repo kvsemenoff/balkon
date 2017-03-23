@@ -544,6 +544,9 @@
   padding: 25px 0 0px 0;
   position: relative; }
 
+.breadbgdfdecor {
+  background-color: #edeae5; }
+
 @media only screen and (min-width: 992px) {
   .dfnav1 .df-left, .dfnav2 .df-left, .dfnav3 .df-left {
     left: -30px; }

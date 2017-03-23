@@ -1,6 +1,9 @@
 <?php require_once('includes/header.php'); ?>
 <?php require_once('includes/header-top.php'); ?>
 	
+<div class="breadbgdfdecor">
+	<?php require_once('bread.php'); ?>
+</div>	
 	<section class="section section_padding bgcolor">
 
 		<div class="container">
