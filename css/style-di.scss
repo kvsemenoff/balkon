@@ -301,6 +301,30 @@ $f-l: "pfdindisplaypro-med", sans-serif;
 	.warm-block4{
 		    margin-bottom: 90px;
 	}
+	.di-veka:hover{
+		cursor: pointer;
+		background: url(../img/di-veka.png) 
+	}
+	.di-rehau:hover{
+		cursor: pointer;
+		background: url(../img/di-rehau.png) 
+	}
+	.di-kbe:hover{
+		cursor: pointer;
+		background: url(../img/di-kbe.png) 
+	}
+	.di-knipping:hover{
+		cursor: pointer;
+		background: url(../img/di-knipping.png) 
+	}
+	.di-proplex:hover{
+		cursor: pointer;
+		background: url(../img/di-proplex.png) 
+	}
+	.di-goodwin:hover{
+		cursor: pointer;
+		background: url(../img/di-goodwin.png) 
+	}
 
 @media only screen and (min-width : 320px) {
 	.wrap-cold-h1{
@@ -505,7 +529,41 @@ $f-l: "pfdindisplaypro-med", sans-serif;
 		left: 16px;
 	}
 	.warm-phone{
-		    margin: 25px 0px 0 20px;
+		margin: 25px 0px 0 20px;
+	}
+	.di-proplex{
+		margin-top: 16px;
+	}
+	.di-rehau{
+		margin-top: 10px;
+	}
+	.di-kbe{
+		margin-top: 18px;
+	}
+
+	.di-veka:hover{
+		cursor: pointer;
+		background: url(../img/di-veka.png) 
+	}
+	.di-rehau:hover{
+		cursor: pointer;
+		background: url(../img/di-rehau.png) 
+	}
+	.di-kbe:hover{
+		cursor: pointer;
+		background: url(../img/di-kbe.png) 
+	}
+	.di-knipping:hover{
+		cursor: pointer;
+		background: url(../img/di-knipping.png) 
+	}
+	.di-proplex:hover{
+		cursor: pointer;
+		background: url(../img/di-proplex.png) 
+	}
+	.di-goodwin:hover{
+		cursor: pointer;
+		background: url(../img/di-goodwin.png) 
 	}
 }
 @media only screen and (min-width : 1248px) {

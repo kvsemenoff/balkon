@@ -438,21 +438,43 @@
 			</div>
 			<div class="clearfix"></div>
 
-			<div class="col-md-4">
+			<div class="col-md-2">
 				<div class="dd-box_lp">
-					<img src="img/log1.png" alt="">
+					<img src="img/di-veka-a.png" class="di-veka" alt="">
 				</div>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-md-2">
+				<div class="dd-box_lp">
+					<img src="img/di-rehau-a.png" class="di-rehau" alt="">
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="dd-box_lp">
+					<img src="img/di-kbe-a.png" class="di-kbe" alt="">
+				</div>
+			</div>
+
+			<div class="col-md-2">
+				<div class="dd-box_lp">
+					<img src="img/di-knipping-a.png" class="di-knipping" alt="">
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="dd-box_lp">
+					<img src="img/di-proplex-a.png" class="di-proplex" alt="">
+				</div>
+			</div>
+
+			<div class="col-md-2">
+				<div class="dd-box_lp">
+					<img src="img/di-goodwin-a.png" class="di-goodwin" alt="">
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-12">
 				<div class="dd-but_h dd-box_lp">
 					<a href="#">выбрать оконный профиль</a>
-				</div>
-			</div>
-
-			<div class="col-md-4">
-				<div class="dd-box_lp">
-					<img src="img/log2.png" alt="">
 				</div>
 			</div>
 			<div class="clearfix"></div>
