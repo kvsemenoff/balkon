@@ -84,7 +84,5 @@
 </section>
 
 <script>
-	$('.js-but').click(function(){
-		$('#js-menu').slideToggle(500);
-	});
+
 </script>

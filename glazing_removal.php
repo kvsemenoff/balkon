@@ -58,20 +58,36 @@
 
 <!-- Хлебные крошки -->
 
-<section class="section section_padding">
+<section class="section section_padding pt_brad_crump">
 	<div class=" container">
 		<div class="row">
-			<div class="col-md-12">
+
+			<div class="col-md-8">
 				
-				<div class="dd-brad-cramp">
+				<div class="dd-brad-cramp dd-pad_top">
 					<a href="#">Главная</a>
 					<span class="dd-str_bc"></span>
-					<a href="#">тест</a>
+					<a href="#">Тест</a>
 					<span class="dd-str_bc"></span>
-					<span>конечная страница</span>
+					<span>Конечная страница</span>
 				</div>
 
 			</div>
+
+			<div class="col-md-4">
+
+				<div class="dd-calc dd-pad_top">
+					<div class="dd-wr_calc">
+						<a href="#">Калькулятор</a>
+					</div>
+					<div class="dd-wr_calc dd-wr_calc_2">
+						<a href="#">Вызов замерщика</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="clearfix"></div>
+
 		</div>
 	</div>
 </section>

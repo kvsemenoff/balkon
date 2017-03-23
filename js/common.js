@@ -163,7 +163,9 @@ $('.dfnavlink:first').click();
         }
         }
     });
-
+    $('.js-but').click(function(){
+        $('#js-menu').slideToggle(500);
+    });
 
 });
 
