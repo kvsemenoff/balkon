@@ -535,6 +535,12 @@
 .dfwarmpd {
   padding: 43px 0 0 0 !important; }
 
+/*section bg 2*/
+.dbbg2 {
+  background: url(../img/db-zamer2.png) no-repeat top center !important;
+  padding: 25px 0 0px 0;
+  position: relative; }
+
 @media only screen and (min-width: 992px) {
   .dfnav1 .df-left, .dfnav2 .df-left, .dfnav3 .df-left {
     left: -30px; }
@@ -562,7 +568,21 @@
 
   /*section bg 2*/
   .dbbg2 {
-    background: url(../img/db-zamer2.png) no-repeat top center !important; }
+    background: url(../img/db-zamer2.png) no-repeat top center !important;
+    padding: 85px 0 60px 0;
+    position: relative;
+    margin-bottom: -40px; }
+    .dbbg2:after {
+      content: '';
+      position: absolute;
+      top: -17.5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 73px;
+      height: 42px;
+      background-image: url("../img/topimg2.png");
+      background-repeat: no-repeat;
+      background-position: bottom center; }
 
   /*================warming=================*/
   .dfpadding {
@@ -626,6 +646,10 @@
     .dfdecorhoverbox:hover .dfhovbox a {
       bottom: 0px;
       opacity: 1; }
+
+  .dbbg2 {
+    padding: 85px 0 60px 0;
+    margin-bottom: -18px; }
 
   /*==========slidertab*/
   .dfcapsl {

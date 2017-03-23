@@ -34,8 +34,8 @@
 </section>
 
 
-<div class="di-cold-our-works">
-	<section class="section section_padding">
+
+	<section class="section section_padding section_our_view">
 		<div class=" container">
 			<div class="row">
 				<div class="col-md-12">
@@ -84,7 +84,7 @@
 			</div>
 		</div>
 	</section>
-</div>
+
 
 
 
