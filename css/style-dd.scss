@@ -922,6 +922,15 @@
 	margin-top: 0 !important;
 	padding-top: 20px;
 }
+.dd-bg_grey{
+	background:#F5F5F5;
+}
+.wrap-cold-h1_mt{
+	margin-top: 17px !important;
+}
+.wrap-first-cold_mt{
+	margin-top: 25px !important;
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -1029,6 +1038,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-header-main_glazing{
+		height: 390px !important;
+	}
 	.dd-calc{
 		text-align: right;
 	}
