@@ -2,8 +2,39 @@ $f-r: "pfdindisplaypro-reg", sans-serif;
 $f-b: "pfdindisplaypro-bold", sans-serif;
 $f-m: "pfdindisplaypro-med", sans-serif;
 $f-l: "pfdindisplaypro-med", sans-serif;
-body{
+.second-cold{
+	    margin-top: 198px;
+}
+.di-some-good:after{
+	content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/di-decor-after.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.di-some-good-cold:after{
+	content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background-image: url(../img/di-decor-after.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.di-white-bg-wrap{
+	position: relative;
+	background-color: #FFF;
+	padding-top: 30px; 
+}
+.di-bg-wrap{
 	background-color: #f5f5f5; 
+}
+.di-h1{
+	padding-bottom: 10px; 
 }
 .cold-pic{
 	margin-top: 20px;
@@ -15,8 +46,8 @@ body{
 .wrap-first-cold{
 	border-radius: 5px;
 	margin-top: 40px;
-	background-color: #FFF;
-	height: 500px;  
+	background-color: none;
+	height: 450px;  
 }
 .wrap-cold-h1{
 	text-align: center;
@@ -27,13 +58,6 @@ body{
 		font-size: 35px;
 	}
 }
-// .cold-pic{
-// 	margin:0 auto;
-// 	margin-top: 20px; 
-// 	background-image: url(../img/cold-pic-1.png);
-// 	height: 288px;
-// 	width: 493px;   
-// }
 
 .cold-wrap-text{
 	margin:15px auto;	
@@ -106,8 +130,8 @@ body{
 	width: 300px;
 	margin: 0 auto;
 	.cold-wrap-img{
-		margin-left: 100px;
-		 
+		    margin-top: -3px;
+		margin-left: 100px;	 
 	}
 	.di-cold-pic-1{
 		max-height: 118px;
@@ -131,7 +155,7 @@ body{
 	width: 300px;
 	margin: 0 auto;
 	.cold-wrap-img{
-		    margin-top: 20px;
+		    margin-top: 15px;
 		margin-left: 80px;
 	}
 	span{
@@ -180,6 +204,20 @@ body{
 	}
 }
 /*Decor*/
+.di-dec:after{
+	content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/di-decor-after.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.di-glazing-bg{
+	background-image: 	url(../img/di-decoration-down-bg.png);
+	background-color: #f5f5f5;
+}
 .di-price{
 	padding-bottom: 20px;
 }
@@ -252,23 +290,70 @@ body{
 		    width: 378px;
     margin: 0 auto;
 	}
+	/*warm*/
+	.warm-warp-img{
+		margin: 10px 0 0 80px;
+	}
+	.warm-block2{
+		padding: 0;
+		
+	}
+	.warm-block4{
+		    margin-bottom: 90px;
+	}
+	.di-veka:hover{
+		cursor: pointer;
+		background: url(../img/di-veka.png) 
+	}
+	.di-rehau:hover{
+		cursor: pointer;
+		background: url(../img/di-rehau.png) 
+	}
+	.di-kbe:hover{
+		cursor: pointer;
+		background: url(../img/di-kbe.png) 
+	}
+	.di-knipping:hover{
+		cursor: pointer;
+		background: url(../img/di-knipping.png) 
+	}
+	.di-proplex:hover{
+		cursor: pointer;
+		background: url(../img/di-proplex.png) 
+	}
+	.di-goodwin:hover{
+		cursor: pointer;
+		background: url(../img/di-goodwin.png) 
+	}
 
 @media only screen and (min-width : 320px) {
 	.wrap-cold-h1{
 		font-size: 27px;
 		min-width: 200px; 
 	}
+	.second-cold{
+	margin-top: 250px;
+	}
 }
 
 @media only screen and (min-width : 480px) {
+	.second-cold{
+	margin-top: 230px;
+		}
 }
 
 @media only screen and (min-width : 768px) {
+	.second-cold{
+		margin-top: 260px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
+	.wrap-first-cold{
+		background-color: #Fff;
+	}
 	.second-cold{
-		margin-top:50px;
+		margin-top:30px;
 	}
 	.wrap-cold-h1{
 		float: left;
@@ -276,12 +361,12 @@ body{
 	}
 	.cold-pic{
 		margin: 120px 0 0 20px;
-		background-image: url(../img/cold-pic-1.png);
-		height: 288px;
-		width: 493px;   
+		//background-image: url(../img/cold-pic-1.png);
+		//height: 288px;
+		//width: 493px;   
 	}
 	.cold-wrap-text{
-		margin: 141px 0 0 0;
+		margin: 126px 0 0px 20px;
 		min-width: 449px; 
 		.r-text{
 			font-family:  $f-r;
@@ -328,6 +413,8 @@ body{
 			text-transform: uppercase;   
 		}
 		p{
+			width: 200px;
+			margin: 0 auto;
 			font-size: 15px;
 			font-family: $f-r;
 			text-align: center; 
@@ -386,9 +473,10 @@ body{
 		}
 	}
 	.cold-wrap-text:before{
-		content: url(../img/cold-circle.png);
-		position: absolute;
-		left: -10px;
+		    content: url(../img/cold-circle.png);
+    position: absolute;
+    left: 10px;
+    top: 134px;
 	}
 
 
@@ -432,6 +520,50 @@ body{
 		margin-left: 20px;
 	}
 	.wrap-di-glazing{
+	}
+	/*warm*/
+	
+	.warm-wrap-text:before{
+		content: url(../img/di-decor-before.png);
+		position: absolute;
+		left: 16px;
+	}
+	.warm-phone{
+		margin: 25px 0px 0 20px;
+	}
+	.di-proplex{
+		margin-top: 16px;
+	}
+	.di-rehau{
+		margin-top: 10px;
+	}
+	.di-kbe{
+		margin-top: 18px;
+	}
+
+	.di-veka:hover{
+		cursor: pointer;
+		background: url(../img/di-veka.png) 
+	}
+	.di-rehau:hover{
+		cursor: pointer;
+		background: url(../img/di-rehau.png) 
+	}
+	.di-kbe:hover{
+		cursor: pointer;
+		background: url(../img/di-kbe.png) 
+	}
+	.di-knipping:hover{
+		cursor: pointer;
+		background: url(../img/di-knipping.png) 
+	}
+	.di-proplex:hover{
+		cursor: pointer;
+		background: url(../img/di-proplex.png) 
+	}
+	.di-goodwin:hover{
+		cursor: pointer;
+		background: url(../img/di-goodwin.png) 
 	}
 }
 @media only screen and (min-width : 1248px) {
