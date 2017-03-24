@@ -37,21 +37,28 @@ $(document).ready(function(){
 
 
     $('.dfnavlink').on('click' , function(e){
-    e.preventDefault();
-    var thishref = $(this).attr('href');
-    $('.dfnavtab').find('.dfactivelink').removeClass('dfactivelink');
-    $(this).addClass('dfactivelink');
-    $('.dfslider').not(thishref).css('display', 'none');
-    $(thishref).css('display', 'block');
+        e.preventDefault();
+        var thishref = $(this).attr('href');
+        $('.dfnavtab').find('.dfactivelink').removeClass('dfactivelink');
+        $(this).addClass('dfactivelink');
+        $('.dfslider').not(thishref).css('display', 'none');
+        $(thishref).css('display', 'block');
 
-    
 
-    $('.dfslider').each(function() {
+    $('.dfnavlink2').on('click' , function(e){
+        e.preventDefault();
+        var thishref = $(this).attr('href');
+        $('.dfnavtab2').find('.dfactivelink').removeClass('dfactivelink');
+        $(this).addClass('dfactivelink');
+        $('.dfslider2').not(thishref).css('display', 'none');
+        $(thishref).css('display', 'block');
+
+        $('.dfslider').each(function() {
          var $owlitem1 = $(thishref);
          $owlitem1.trigger('destroy.owl.carousel');
 
-        $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
-        $owlitem1.owlCarousel({                           
+         $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+         $owlitem1.owlCarousel({                           
             loop:true,
             nav:true, 
             autoplay:false,
@@ -73,12 +80,40 @@ $(document).ready(function(){
                 }
             }
         });   
+     });
     });
+    $('.dfnavlink:first').click();
 
-});
-$('.dfnavlink:first').click();
+     $('.dfslider2').each(function() {
+         var $owlitem1 = $(thishref);
+         $owlitem1.trigger('destroy.owl.carousel');
 
-
+         $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+         $owlitem1.owlCarousel({                           
+            loop:true,
+            nav:true, 
+            autoplay:false,
+            smartSpeed:1000,
+            margin:15,    
+            navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+            responsive:{
+                0:{
+                    items:1
+                },
+                410:{
+                    items:1   
+                },        
+                700:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        });   
+     });
+    });
+    $('.dfnavlink2:first').click();
     
 
 
@@ -95,18 +130,18 @@ $('.dfnavlink:first').click();
         center:false,     //если нужны обрезаные края
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
         responsive:{
-        0:{
-            items:1
-        },
-        410:{
-            items: 2   
-        },        
-        900:{
-            items:3
-        },
-        1200:{
-            items:4
-        }
+            0:{
+                items:1
+            },
+            410:{
+                items: 2   
+            },        
+            900:{
+                items:3
+            },
+            1200:{
+                items:4
+            }
         }
     });
 
@@ -122,18 +157,18 @@ $('.dfnavlink:first').click();
         center:false,     //если нужны обрезаные края
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
         responsive:{
-        0:{
-            items:1
-        },
-        410:{
-            items: 2   
-        },        
-        900:{
-            items:3
-        },
-        1200:{
-            items:4
-        }
+            0:{
+                items:1
+            },
+            410:{
+                items: 2   
+            },        
+            900:{
+                items:3
+            },
+            1200:{
+                items:4
+            }
         }
     });
 
@@ -149,18 +184,18 @@ $('.dfnavlink:first').click();
         center:false,     //если нужны обрезаные края
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
         responsive:{
-        0:{
-            items:1
-        },
-        410:{
-            items: 2   
-        },        
-        900:{
-            items:3
-        },
-        1200:{
-            items:4
-        }
+            0:{
+                items:1
+            },
+            410:{
+                items: 2   
+            },        
+            900:{
+                items:3
+            },
+            1200:{
+                items:4
+            }
         }
     });
     $('.js-but').click(function(){

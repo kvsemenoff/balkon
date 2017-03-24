@@ -341,7 +341,7 @@
 			<h2 class="dfdectopcap dfcapsl">Цена на дополнительные услуги</h2>
 			<div class="dftxtbottom dfsltop">Кто-то желает превратить балкон в теплую и комфортабельную комнату, кто-то использует его в качестве технического или хозяйственного помещения, а кому-то достаточно, чтобы внутрь лоджии просто не попадали осадки, пыль и грязь.</div>
 
-			<div class="dfslider" id="ddprice1">
+			<div class="dfslider2" id="ddprice1">
 				<div class="item">
 					<div class="dfimgtext">
 						<div class="dfimgsl">
@@ -375,7 +375,7 @@
 					</div>
 				</div>
 			</div>	
-			<div class="dfslider" id="ddprice2">
+			<div class="dfslider2" id="ddprice2">
 				<div class="item">
 					<div class="dfimgtext">
 						<div class="dfimgsl">
@@ -409,7 +409,7 @@
 					</div>
 				</div>
 			</div>	
-			<div class="dfslider" id="ddprice3">
+			<div class="dfslider2" id="ddprice3">
 				<div class="item">
 					<div class="dfimgtext">
 						<div class="dfimgsl">
@@ -443,7 +443,7 @@
 					</div>
 				</div>
 			</div>	
-			<div class="dfslider" id="ddprice4">
+			<div class="dfslider2" id="ddprice4">
 				<div class="item">
 					<div class="dfimgtext">
 						<div class="dfimgsl">
@@ -477,7 +477,7 @@
 					</div>
 				</div>
 			</div>	
-			<div class="dfslider" id="ddprice5">
+			<div class="dfslider2" id="ddprice5">
 				<div class="item">
 					<div class="dfimgtext">
 						<div class="dfimgsl">
@@ -511,7 +511,7 @@
 					</div>
 				</div>
 			</div>	
-			<div class="dfslider" id="ddprice6">
+			<div class="dfslider2" id="ddprice6">
 				<div class="item">
 					<div class="dfimgtext">
 						<div class="dfimgsl">
@@ -545,7 +545,7 @@
 					</div>
 				</div>
 			</div>	
-			<div class="dfslider" id="ddprice7">
+			<div class="dfslider2" id="ddprice7">
 				<div class="item">
 					<div class="dfimgtext">
 						<div class="dfimgsl">
@@ -581,16 +581,16 @@
 			</div>	
 
 
-			<div class="dfnavtab dfbalkon" >
+			<div class="dfnavtab2 dfbalkon2" >
 				<ul>
-					<li><a href="#ddprice1" class="dfnavlink dfactivelink"><b>Ламинированные панели   </b> </a></li>
-					<li><a href="#ddprice2" class="dfnavlink"><b>Пластиковые панели</b></a></li>
-					<li><a href="#ddprice3" class="dfnavlink"><b>Вагонка</b></a></li>
-					<li><a href="#ddprice4" class="dfnavlink"><b>МДФ</b></a></li>
-					<li><a href="#ddprice5" class="dfnavlink"><b>Камень</b></a></li>
-					<li><a href="#ddprice6" class="dfnavlink"><b>Кирпич</b></a></li>
-					<li><a href="#ddprice7" class="dfnavlink"><b>Штукатурка </b></a></li>
-					<li><a href="#ddprice7" class="dfnavlink"><b> Утепление</b></a></li>
+					<li><a href="#ddprice1" class="dfnavlink2 dfactivelink"><b>Ламинированные панели   </b> </a></li>
+					<li><a href="#ddprice2" class="dfnavlink2"><b>Пластиковые панели</b></a></li>
+					<li><a href="#ddprice3" class="dfnavlink2"><b>Вагонка</b></a></li>
+					<li><a href="#ddprice4" class="dfnavlink2"><b>МДФ</b></a></li>
+					<li><a href="#ddprice5" class="dfnavlink2"><b>Камень</b></a></li>
+					<li><a href="#ddprice6" class="dfnavlink2"><b>Кирпич</b></a></li>
+					<li><a href="#ddprice7" class="dfnavlink2"><b>Штукатурка </b></a></li>
+					<li><a href="#ddprice7" class="dfnavlink2"><b> Утепление</b></a></li>
 				</ul>
 			</div>
 			<div class="dflinksliderbot">

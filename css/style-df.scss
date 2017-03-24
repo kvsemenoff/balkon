@@ -378,7 +378,7 @@
 }
 
 
-.dfnavtab{
+.dfnavtab, .dfnavtab2{
 	max-width: 960px;
 	width: 100%;
 	margin: 0 auto;
@@ -391,7 +391,7 @@
 		}
 	}
 }
-.dfnavlink{
+.dfnavlink, .dfnavlink2{
 	display: inline-block;
 	font-family: "pfdindisplaypro-reg";
 	font-size: 16px;
@@ -470,8 +470,8 @@
 	display: none;
 }
 /*====balkon===============*/
-.dfbalkon{
-	.dfnavlink{			
+.dfbalkon, .dfbalkon2{
+	.dfnavlink, .dfnavlink2{			
 		&:hover{
 			background-color: #c9bba6;			
 		}
@@ -659,7 +659,7 @@
 			right: 25px;		
 		}	
 	}
-	.dfnavtab{
+	.dfnavtab, .dfnavtab2 {
 		text-align: left;	
 		ul{
 			li{
@@ -781,7 +781,7 @@
 		margin-bottom: 35px;
 		
 	}
-	.dfnavtab{		
+	.dfnavtab, .dfnavtab2{		
 		ul{
 			li{				
 				margin-right: 14px;				
