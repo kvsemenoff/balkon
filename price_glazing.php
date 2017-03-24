@@ -390,21 +390,21 @@
 		<div class="container">
 			<div class="dfwarmblock">
 				<div class="dfwarmbox">
-					<div class="dfwarmimmg"><img src="img/warm1.png" alt=""></div>
+					<div class="dfwarmimmg"><img src="img/gg1.png" alt=""></div>
 					<h4 class="dfwarmcap"><span>Отделка под ключ</span></h4>
 					<p class="dfwarmtxtbot dfwarmtxtbot_dd">После остекленения балкона или лоджии на повестку дня встает вопрос об их отделке. 
 					</p>
 					<a href="#" class="dfbuttonwarm">Подробнее</a>
 				</div>
 				<div class="dfwarmbox">
-					<div class="dfwarmimmg"><img src="img/warm2.png" alt=""></div>
+					<div class="dfwarmimmg"><img src="img/gg2.png" alt=""></div>
 					<h4 class="dfwarmcap"><span>Последние работы</span></h4>
 					<p class="dfwarmtxtbot dfwarmtxtbot_dd">После остекленения балкона или лоджии на повестку дня встает вопрос об их отделке. 
 					</p>	
 					<a href="#" class="dfbuttonwarm">Подробнее</a>		
 				</div>
 				<div class="dfwarmbox">
-					<div class="dfwarmimmg"><img src="img/warm3.png" alt=""></div>
+					<div class="dfwarmimmg"><img src="img/gg3.png" alt=""></div>
 					<h4 class="dfwarmcap"><span>Калькулятор</span></h4>
 					<p class="dfwarmtxtbot dfwarmtxtbot_dd">Балконный калькулятор позволяет на предварительном этапе рассчитать стоимость остекления балкона...
 					</p>

@@ -46,11 +46,11 @@ $(document).ready(function(){
 
 
         $('.dfslider').each(function() {
-         var $owlitem1 = $(thishref);
-         $owlitem1.trigger('destroy.owl.carousel');
+           var $owlitem1 = $(thishref);
+           $owlitem1.trigger('destroy.owl.carousel');
 
-         $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
-         $owlitem1.owlCarousel({                           
+           $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+           $owlitem1.owlCarousel({                           
             loop:true,
             nav:true, 
             autoplay:false,
@@ -73,12 +73,12 @@ $(document).ready(function(){
             }
         });   
 
+       });
     });
-        });
     $('.dfnavlink:first').click();
 
 
-   $('.dfnavlink2').on('click' , function(e){
+    $('.dfnavlink2').on('click' , function(e){
         e.preventDefault();
         var thishref = $(this).attr('href');
         $('.dfnavtab2').find('.dfactivelink').removeClass('dfactivelink');
@@ -88,11 +88,11 @@ $(document).ready(function(){
 
 
         $('.dfslider2').each(function() {
-         var $owlitem2 = $(thishref);
-         $owlitem2.trigger('destroy.owl.carousel');
+           var $owlitem2 = $(thishref);
+           $owlitem2.trigger('destroy.owl.carousel');
 
-         $owlitem2.html($owlitem2.find('.owl-stage-outer').html()).removeClass('owl-loaded');
-         $owlitem2.owlCarousel({                           
+           $owlitem2.html($owlitem2.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+           $owlitem2.owlCarousel({                           
             loop:true,
             nav:true, 
             autoplay:false,
@@ -114,7 +114,7 @@ $(document).ready(function(){
                 }
             }
         });   
-         }); 
+       }); 
     });
     $('.dfnavlink2:first').click();
 
