@@ -958,8 +958,6 @@
 	}
 }
 .dd-min-box_h__2{
-	// background: url(../img/linepr.png) no-repeat left top 7px;
-	// padding-left: 25px;
 	background:none;
 	text-align: center;
 	.dd-sp1_pr{
@@ -1073,6 +1071,22 @@
 		top: -69px;
 		left: 50%;
 		transform: translateX(-50%);
+	}
+}
+.dd-main-title_lp_2{
+	padding-top: 15px;
+	h1{
+		text-align: left;
+	}
+}
+.dftextleft_dd{
+	p{
+		margin-top: 15px !important;
+	}
+	span{
+		b{
+			color:#fff;
+		}
 	}
 }
 
