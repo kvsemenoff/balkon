@@ -45,14 +45,6 @@ $(document).ready(function(){
         $(thishref).css('display', 'block');
 
 
-    $('.dfnavlink2').on('click' , function(e){
-        e.preventDefault();
-        var thishref = $(this).attr('href');
-        $('.dfnavtab2').find('.dfactivelink').removeClass('dfactivelink');
-        $(this).addClass('dfactivelink');
-        $('.dfslider2').not(thishref).css('display', 'none');
-        $(thishref).css('display', 'block');
-
         $('.dfslider').each(function() {
          var $owlitem1 = $(thishref);
          $owlitem1.trigger('destroy.owl.carousel');
@@ -80,16 +72,27 @@ $(document).ready(function(){
                 }
             }
         });   
-     });
+
     });
+        });
     $('.dfnavlink:first').click();
 
-     $('.dfslider2').each(function() {
-         var $owlitem1 = $(thishref);
-         $owlitem1.trigger('destroy.owl.carousel');
 
-         $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
-         $owlitem1.owlCarousel({                           
+   $('.dfnavlink2').on('click' , function(e){
+        e.preventDefault();
+        var thishref = $(this).attr('href');
+        $('.dfnavtab2').find('.dfactivelink').removeClass('dfactivelink');
+        $(this).addClass('dfactivelink');
+        $('.dfslider2').not(thishref).css('display', 'none');
+        $(thishref).css('display', 'block');
+
+
+        $('.dfslider2').each(function() {
+         var $owlitem2 = $(thishref);
+         $owlitem2.trigger('destroy.owl.carousel');
+
+         $owlitem2.html($owlitem2.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+         $owlitem2.owlCarousel({                           
             loop:true,
             nav:true, 
             autoplay:false,
@@ -111,10 +114,9 @@ $(document).ready(function(){
                 }
             }
         });   
-     });
+         }); 
     });
     $('.dfnavlink2:first').click();
-    
 
 
 
@@ -198,6 +200,7 @@ $(document).ready(function(){
             }
         }
     });
+
     $('.js-but').click(function(){
         $('#js-menu').slideToggle(500);
     });
